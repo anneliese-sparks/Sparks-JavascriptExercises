@@ -43,12 +43,6 @@ if ( answer === 'yes' ) {
 
 
 
-
-var select = document.querySelector('select');
-var para = document.querySelector('p');
-
-select.addEventListener('change', setMeal);
-
 function setMeal() {
   var choice = select.value;
 
